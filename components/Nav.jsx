@@ -24,8 +24,8 @@ const Nav = () => {
     return (
         <nav className='flex-between w-full mb-16 pt-4'>
             <Link href="/" className='flex gap-2 flex-center'>
-                <Image src="/assets/images/logo.svg" className='object-contan' width={30} height={30} alt="AI Speak Logo" />
-                <p className='logo_text'>AI Speak</p>
+                <Image src="/assets/images/logo.png" className='object-contan' width={35} height={35} alt="Logo" />
+                <p className='logo_text'>BlogSphere</p>
             </Link>
 
 

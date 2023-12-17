@@ -7,8 +7,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
                 <span className='blue_gradient'>{type} Post</span>
             </h1>
             <p className='desc text-left max-w-md'>
-                {type} and share amazing prompts with the world, and let your
-                imagination run wild with any AI-powered platform
+                {type} your blog post. Here you can think and explore many ways to write your thoughts. Like "How your day went?", "What movies and songs you played?" and so much more. <br /><br />Post to share.
             </p>
 
             <form
@@ -17,7 +16,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
             >
                 <label>
                     <span className='font-satoshi font-semibold text-base text-gray-700'>
-                        Your AI Prompt
+                        Blog It Out Here
                     </span>
 
                     <textarea
@@ -31,10 +30,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
 
                 <label>
                     <span className='font-satoshi font-semibold text-base text-gray-700'>
-                        Field of Prompt{" "}
-                        <span className='font-normal'>
-                            (#product, #webdevelopment, #idea, etc.)
-                        </span>
+                        Hashtags{" "}
                     </span>
                     <input
                         value={post.tag}
@@ -54,9 +50,9 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
                     <button
                         type='submit'
                         disabled={submitting}
-                        className='px-5 py-1.5 text-sm bg-primary-orange rounded-full text-white'
+                        className='px-5 py-1.5 text-sm bg-indigo-700 text-white'
                     >
-                        {submitting ? `${type}ing...` : type}
+                        {submitting ? `${type}` : type}
                     </button>
                 </div>
             </form>

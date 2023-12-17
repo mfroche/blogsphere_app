@@ -6,8 +6,8 @@ import Provider from '@components/Provider'
 
 
 export const metadata = {
-    title: "Promptopia",
-    description: 'Discover and share AI prompts'
+    title: "BlogSphere",
+    description: 'Share the moments you cherish.'
 }
 
 const RootLayout = ({ children }) => {
@@ -17,7 +17,6 @@ const RootLayout = ({ children }) => {
                 <Provider>
                     <div className='main'>
                         <div className='gradient'>
-
                         </div>
                     </div>
 
