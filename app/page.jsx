@@ -17,7 +17,7 @@ const Home = () => {
                         <br />Create & Share.
                     </h1>
                     <p className='desc'>
-                        Welcome to PromptHub – a platform where one can share creative writing prompts! We celebrate the art of storytelling, encouraging writers, thinkers, and creators of all kinds to share their unique perspectives and talent. <br />BlogSphere is your gateway to a world with inspiration and possibilities.
+                        Welcome to PromptHub – a platform where one can share creative writing prompts! We celebrate the art of storytelling, encouraging writers, thinkers, and creators of all kinds to share their unique perspectives and talent.
                     </p>
                 </div>
             </div>
