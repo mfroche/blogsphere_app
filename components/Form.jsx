@@ -7,7 +7,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
                 <span className='blue_gradient'>{type} Post</span>
             </h1>
             <p className='desc text-left max-w-md'>
-                {type} your blog post. Here you can think and explore many ways to write your thoughts. Like "How your day went?", "What movies and songs you played?" and so much more. <br /><br />Post to share.
+                {type} your prompt. Here you can think and explore many ways to create writing prompts. Be imaginative as you can be. <br />Post to share.
             </p>
 
             <form
@@ -16,13 +16,13 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
             >
                 <label>
                     <span className='font-satoshi font-semibold text-base text-gray-700'>
-                        Blog It Out Here
+                        Prompt It Out Here
                     </span>
 
                     <textarea
                         value={post.prompt}
                         onChange={(e) => setPost({ ...post, prompt: e.target.value })}
-                        placeholder='Write your post here'
+                        placeholder='Write your prompt here'
                         required
                         className='form_textarea '
                     />
@@ -30,7 +30,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
 
                 <label>
                     <span className='font-satoshi font-semibold text-base text-gray-700'>
-                        Hashtags{" "}
+                        Put a Tag Here{" "}
                     </span>
                     <input
                         value={post.tag}

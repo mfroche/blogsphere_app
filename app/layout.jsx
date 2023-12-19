@@ -6,8 +6,8 @@ import Provider from '@components/Provider'
 
 
 export const metadata = {
-    title: "BlogSphere",
-    description: 'Share the moments you cherish.'
+    title: "PromptHub",
+    description: "Share unique ideas."
 }
 
 const RootLayout = ({ children }) => {
@@ -17,6 +17,7 @@ const RootLayout = ({ children }) => {
                 <Provider>
                     <div className='main'>
                         <div className='gradient'>
+
                         </div>
                     </div>
 
